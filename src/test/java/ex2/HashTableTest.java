@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 class HashTableTest {
 
     @ParameterizedTest
-    @CsvSource({"1, elemento1"}) //hola
+    @CsvSource({"1, elemento1"})
     void test_put_enHashTableVacio(String key, String value) {
         HashTable hashTable = new HashTable();
         hashTable.put(key, value);
